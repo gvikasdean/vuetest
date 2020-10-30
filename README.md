@@ -29,9 +29,11 @@ A.	Database used as part of the project: MongoDB
 1.       Created a MongoDB database : BoxDB
 2.       Created 3 Collections
 
-a.       Items  : This is similar to products. It will store the details of the items such as itemid, name, price, quantity, imageFiles and rating.
+a.      Items  : This is similar to products. It will store the details of the items such as itemid, name, price, quantity, imageFiles and rating.
+
 b.      Boxtype  : This is used for creating standard Box types for storing predefined items. Along with that, this stores the type, name, free shipping limit and total price.
-c.       BoxCart  : This contains the user specific Box carts. 
+
+c.      BoxCart  : This contains the user specific Box carts. 
 
 3.	Used MongoDB API in the server side project to connect to the database. It defined the user name, database name and the password to the remote database.
  
