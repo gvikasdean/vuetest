@@ -6,9 +6,9 @@ Project Upstar
 
 IDE: Visual Studio Code
 
-How to run
+###How to run
 
-Client
+##Client
 
 1.	Open the terminal in the project folder
 2.	Go to the client directory by typing: ‘cd client’
@@ -16,13 +16,13 @@ Client
 4.	At the end of the process, it will tell the server and port on which the project is deployed. As of now it will be running on the localhost.
 5.	Open the link. Now it will display the homepage of the website
 
-Server
+##Server
 
 1.	Type the following command:’node server/index.js’
 2.	Now it will start listening on the port 8000 of the localhost.
 
 
-What has been covered so far
+##What has been covered so far
 
 A.	Database used as part of the project: MongoDB
 
@@ -42,7 +42,7 @@ B.  Server Side APIs:
 Created APIs in the server side code to receive requests for various operations to be performed on the data. The various requests incorporated are: GET, POST, PUT, DELETE. 
 Used ‘app.use’ and routers to route the request to the corresponding method.
 
-Client Side Models:
+##Client Side Models:
 
 Created model classes for Items, Box Carts and BoxTypes to define the values for data members and create requests for server side APIs.
 
@@ -75,7 +75,7 @@ D. User functionalities
 2.	Upon clicking the ‘Add to cart’ button, the item is added to the user cart.
 
 
-Pending
+###Pending
 
 Modify AppHeaders program to reflect the changes in the cart in the AppHeaders.vue file.
 Currently, the users and boxtypes on the admin panel have been hard coded. Their dynamicity is yet to be added.
